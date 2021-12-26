@@ -11,6 +11,7 @@ import { concatMap, mergeMap } from 'rxjs/operators';
 export class ForkjoinMergemapConcatmapComponent {
   name = 'Angular ' + VERSION.major;
   dataForkJoin: any[] = [];
+  delayUrl = 'http://httpbin.org/delay/5';
 
   constructor(private http: HttpClient) {
     this.getDataForkJoin();
