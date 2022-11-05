@@ -9,6 +9,7 @@ import { SubjectComponent } from './00-subject/subject.component';
 import { ForkjoinMergemapConcatmapComponent } from './99_forkjoin-mergemap-concatmap/forkjoin-mergemap-concatmap.component';
 import { CreateObserversComponent } from './01_create-observers/create-observers.component';
 import { OperatorsComponent } from './02-operators/operators.component';
+import { ExamplesComponent } from './examples/example.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule, HttpClientModule],
@@ -18,6 +19,7 @@ import { OperatorsComponent } from './02-operators/operators.component';
     CreateObserversComponent,
     OperatorsComponent,
     ForkjoinMergemapConcatmapComponent,
+    ExamplesComponent,
   ],
   bootstrap: [AppComponent],
 })
